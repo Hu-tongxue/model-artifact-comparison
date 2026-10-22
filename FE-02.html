@@ -1,0 +1,87 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FE-02 · 三模型产物对比</title><style>*{box-sizing:border-box}body{margin:0;background:#0b1019;color:#e6ebf5;font:15px/1.65 system-ui,-apple-system,"Microsoft YaHei",sans-serif}header,main,footer{max-width:1800px;margin:auto;padding:24px 32px}header{padding-bottom:16px}a{color:#9fc8ff}nav{display:flex;gap:18px;font-size:13px}.eyebrow{color:#80b4fa;font-size:12px;letter-spacing:2px;margin-top:24px}h1{font-size:30px;margin:8px 0}h2{font-size:20px;margin:0}p{color:#aebad0;margin:10px 0}.controls{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:15px 20px;background:#182234f2;border:1px solid #2b3b54;border-radius:12px;backdrop-filter:blur(12px)}button,select{border:1px solid #425572;background:#22334e;color:#f0f5ff;border-radius:7px;padding:9px 14px;cursor:pointer}button.primary{background:#3879ed;border-color:#3879ed}input[type=range]{flex:1;min-width:160px;accent-color:#75a8ff}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px}.card{background:#121c2c;border:1px solid #293750;border-radius:14px;overflow:hidden}.head{padding:18px 20px;display:flex;justify-content:space-between;align-items:center}.score{font-size:25px;font-weight:750;color:#a7d1ff}.score small{font-size:12px;color:#879bb9}.media{background:#000;position:relative;cursor:zoom-in}video{display:block;width:100%;aspect-ratio:1.6;object-fit:contain}.zoom{position:absolute;right:8px;bottom:8px;font-size:12px;background:#0b1019dd;padding:4px 8px;border-radius:5px;pointer-events:none}.body{padding:18px 20px}.finding{font-size:16px;font-weight:650;color:#edf3ff}.badge{display:inline-block;padding:3px 9px;background:#27334a;border-radius:5px;font-size:12px;color:#aec2e2}.card:first-child .badge{background:#492d24;color:#ffd0b4}details{border-top:1px solid #2a3850;margin-top:20px;padding-top:14px}summary{cursor:pointer;color:#a7c8ff}.rubric{font-size:13px;color:#b9c6dc;white-space:pre-wrap;line-height:1.9}.notice{border-left:3px solid #678ccc;padding:12px 18px;background:#111d30;margin:20px 0}.chapters{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.chapters button{font-size:12px}.status{font-size:12px;color:#9eb3d1}footer{font-size:12px;color:#8496b1;padding-bottom:40px}.modal{position:fixed;inset:0;z-index:20;background:#000d;display:none;align-items:center;justify-content:center;padding:25px}.modal.open{display:flex}.modal video{max-width:1280px;max-height:90vh;aspect-ratio:1.6}.close{position:absolute;top:12px;right:20px;font-size:22px}@media(max-width:1000px){header,main,footer{padding-left:14px;padding-right:14px}.grid{gap:8px}.head,.body{padding:12px}.score{font-size:21px}h2{font-size:16px}h1{font-size:25px}}@media(max-width:700px){.grid{grid-template-columns:1fr}.controls{position:static}}</style><header><nav><a href="FE-01.html">FE-01 旅行预订</a><a href="FE-02.html">FE-02 BI 仪表盘</a></nav><div class="eyebrow">ACTUAL SCREEN RECORDINGS · FE-02</div><h1>电商 BI 仪表盘：三个模型，同场景对比</h1><p>打开概览 → 查找订单表 → 搜索订单 → 尝试导出</p></header><main><div class="controls"><button id="play" class="primary">▶ 同时播放</button><button id="reset">↺ 从头开始</button><input id="seek" type="range" min="0" max="100" step="0.1" value="0" aria-label="同步播放进度"><span id="time">0:00 / 加载中</span><select id="speed" aria-label="播放速度"><option value="1">1×</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="0.75">0.75×</option></select><span class="status" id="status">点击“同时播放”；点击任意视频可放大</span></div><div class="chapters"><button data-seek="0">0s · 打开产物</button><button data-seek="6">6s · 概览七类组件</button><button data-seek="11">11s · 向下查看订单明细</button><button data-seek="17">17s · 订单搜索及CSV入口</button><button data-seek="24">24s · 导出当前结果</button></div><div class="notice">录屏来自对原始产物的真实浏览器操作，不是重绘演示。三窗口按操作阶段对齐，各模型响应时间可能不同。下方分数来自完整评分 CSV，录屏仅展示部分评分点；可用入口不代表该产物其他功能全部通过。</div><div class="grid"><article class="card"><div class="head"><h2>285b</h2><span class="badge">重点核验</span></div><div class="media" title="点击放大查看"><video muted playsinline preload="metadata" poster="assets/FE-02-285b.png" src="assets/FE-02-285b.webm"></video><span class="zoom">⤢ 点击放大</span></div><div class="body"><div class="score">48.5 <small>/ 100 · 本题总分</small></div><p class="finding">默认仪表盘缺订单明细，CSV入口不可达。</p><p>默认布局仅列出6个组件，没有订单明细表；进入编辑模式也没有可恢复的订单表。CSV按钮位于未挂载的订单组件内，因此页面无法完成明细搜索与导出。另有月下钻只取到28日、城市金额平均分配等问题，详见逐项评分。</p><details><summary>逐项分数与完整评分原因</summary><div class="rubric">FE-02；
+满分100，按grade逐项相加。A1=4/4：独立启动，GET /api/aggregate、/api/sales、GET/PUT /api/dashboard/layout、GET /api/events均可调用；
+自带API集成测试通过。；
+A2=5/6：默认layout只有6个widget，缺table且编辑恢复列表也无table，七项缺1扣1，得5。；
+A3=0/6：三组后端筛选正确，但页面订单表缺失，无法满足全部图表含明细联动，3组严格各扣2。；
+A4=4/6：筛选条件展示及再次点击撤销各2；
+缺明细联动同步项0。；
+A5=1/5：月下钻日期硬编码到28日、遗漏29–31日=0；
+城市金额用国家总额平均分配非实际聚合=0；
+面包屑/清除=1。；
+A6=5/5：编辑控件支持排序/尺寸/隐藏恢复；
+布局API写入读取与持久化集成测试通过。；
+A7=0/4：后端分页排序搜索存在，但默认布局无明细表且没有恢复入口，页面功能不可达，0。；
+A8=4/4：核对sales_5000.csv为5000行确定性数据，含order_id/date/status/country/city/channel/category/product_id/amount_cents；
+paid/pending/refunded齐全。；
+A9=0/8：SSE客户端12号前累计54291296，续传30号后54532055，与不断线54532055一致；
+页面却接收30事件仍GMV54159050/4215单，初始化覆盖事件增量，KPI要求未通过=0。；
+A10=0/6：useSSE有本地增量代码，但初始全量请求覆盖30事件，页面KPI并未保持新事件增量结果；
+严格0。；
+A11=0/6：CSV按钮在未挂载的OrderTable内，实际页面无法导出两份，0。；
+A12=6/6：清除维度筛选回到原集合；
+页面筛选前后数值及源码可逆逻辑见bi-browser.json。；
+A13=4/4：390px截图单列，document.scrollWidth=390，无横向溢出，4。；
+Q1=0/10：接口全量KPI=54159050分、接口明细paid合计=54159050分；
+页面CSV与明细均不可达，不能提供合规页面三方对账，严格不给分（不是金额不一致的推断）。；
+Q2=8/8：README三项定义；
+38项测试通过，含独立金额/比率计算。；
+Q3=3/6：1440×900图表纵向拉长、右侧大片留白，3分档。；
+Q4=4.5/6：加载/空数据/接口错误各1.5；
+请求封装无超时控制，超时项0，共4.5。；
+证据：.evaluation/285b-bi-tests.log、reconciliation.json、sse.json、bi-browser.json、browser.json及285b-fe2.png/285b-fe2-mobile.png。SSE记录单位为分；
+协议客户端通过不等于页面KPI通过。</div></details></div></article><article class="card"><div class="head"><h2>deepseek</h2><span class="badge">同场景对照</span></div><div class="media" title="点击放大查看"><video muted playsinline preload="metadata" poster="assets/FE-02-deepseek.png" src="assets/FE-02-deepseek.webm"></video><span class="zoom">⤢ 点击放大</span></div><div class="body"><div class="score">87 <small>/ 100 · 本题总分</small></div><p class="finding">订单明细与CSV入口可用。</p><p>可查看、搜索服务端订单并导出。实时事件后仍重新拉取整套数据扣6分，390px页面横向溢出扣4分，桌面布局松散扣3分。</p><details><summary>逐项分数与完整评分原因</summary><div class="rubric">FE-02；
+满分100，按grade逐项相加。A1=4/4：独立启动，GET /api/aggregate、/api/sales、GET/PUT /api/dashboard/layout、GET /api/events均可调用；
+自带API集成测试通过。；
+A2=6/6：首页五张KPI卡、趋势、渠道、地区、漏斗、Top商品、订单明细七项。；
+A3=6/6：抽验organic、US+social、2026-03-01~07-31+CN+organic+电子；
+数据行1289/314/62，支付金额13894200/3618850/725350分，聚合及明细同源。；
+A4=6/6：图表维度点击筛选、再次点击撤销、当前条件chips可见，源代码事件绑定及页面控件核验。；
+A5=5/5：月份柱→日趋势、国家条→城市、面包屑返回及清除逻辑完整。；
+A6=5/5：编辑控件支持排序/尺寸/隐藏恢复；
+布局API写入读取与持久化集成测试通过。；
+A7=4/4：GET /api/sales为服务端分页/排序/搜索，接口测试验证分页数量及关键词返回子集。；
+A8=4/4：核对sales_5000.csv为5000行确定性数据，含order_id/date/status/country/city/channel/category/product_id/amount_cents；
+paid/pending/refunded齐全。；
+A9=8/8：断连于ID12累计GMV54291296，续传13..30各1次后54532055，对照54532055；
+页面最终GMV54532055/4245单与接口一致，sse.json+bi-browser.json。；
+A10=0/6：每个order_paid调用scheduleRefresh(400)→refreshAll，重拉聚合与表格，不符合仅增量更新，0。；
+A11=6/6：两次筛选CSV对账organic=14267205分（含实时30笔）、US+social=3618850分；
+CSV/明细/KPI一致，日期与金额同口径。；
+A12=6/6：清除维度筛选回到原集合；
+页面筛选前后数值及源码可逆逻辑见bi-browser.json。；
+A13=0/4：390px页面scrollWidth=466，存在76px横向溢出，不满足无横向溢出=0。；
+Q1=10/10：全量实时后CSV paid=54532055分、KPI=54532055分、逐页明细paid合计=54532055分；
+US+social三方均3618850分，10。；
+Q2=8/8：README定义及计算测试覆盖，26项测试通过。；
+Q3=3/6：桌面布局可用但纵向松散，渠道/漏斗大面积留白，3。；
+Q4=6/6：网络模拟及API封装覆盖加载、空、超时、500，各1.5，共6。；
+证据：.evaluation/deepseek-bi-tests.log、reconciliation.json、sse.json、bi-browser.json、browser.json及deepseek-fe2.png/deepseek-fe2-mobile.png。SSE记录单位为分；
+协议客户端通过不等于页面KPI通过。</div></details></div></article><article class="card"><div class="head"><h2>GLM</h2><span class="badge">同场景对照</span></div><div class="media" title="点击放大查看"><video muted playsinline preload="metadata" poster="assets/FE-02-glm.png" src="assets/FE-02-glm.webm"></video><span class="zoom">⤢ 点击放大</span></div><div class="body"><div class="score">70 <small>/ 100 · 本题总分</small></div><p class="finding">订单明细可用；实时金额口径有偏差。</p><p>订单明细、搜索、导出入口可达。但实时后的页面KPI为545,320.55元，CSV与明细支付合计为541,590.50元；因此不把“能导出”等同于“口径正确”。实时一致性、增量更新和国家下钻亦有扣分。</p><details><summary>逐项分数与完整评分原因</summary><div class="rubric">FE-02；
+满分100，按grade逐项相加。A1=4/4：独立启动，GET /api/aggregate、/api/sales、GET/PUT /api/dashboard/layout、GET /api/events均可调用；
+自带API集成测试通过。；
+A2=6/6：首页五张KPI卡、趋势、渠道、地区、漏斗、Top商品、订单明细七项。；
+A3=6/6：抽验organic、US+social、2026-03-01~07-31+CN+organic+电子；
+数据行1289/314/62，支付金额13894200/3618850/725350分，聚合及明细同源。；
+A4=6/6：图表维度点击筛选、再次点击撤销、当前条件chips可见，源代码事件绑定及页面控件核验。；
+A5=3/5：月→天及面包屑/清除=3；
+地区初始就是城市条，点击补国家路径，未实现国家图→城市图下钻，国家项0。；
+A6=5/5：编辑控件支持排序/尺寸/隐藏恢复；
+布局API写入读取与持久化集成测试通过。；
+A7=4/4：GET /api/sales为服务端分页/排序/搜索，接口测试验证分页数量及关键词返回子集。；
+A8=4/4：核对sales_5000.csv为5000行确定性数据，含order_id/date/status/country/city/channel/category/product_id/amount_cents；
+paid/pending/refunded齐全。；
+A9=0/8：协议断线前ID12累计54291296、恢复至30为54532055，与协议对照54532055一致；
+但页面KPI54532055而服务端/明细54159050，实时未入服务端且页面重新拉取后叠加，端到端一致性未通过=0。；
+A10=0/6：事件处理800ms后refreshAll，全量请求聚合/图表/明细，不满足仅增量更新，0。；
+A11=0/6：静态筛选导出正确，但实时后的页面GMV54532055分，CSV paid54159050分，当前全量口径不一致，0。；
+A12=6/6：清除维度筛选回到原集合；
+页面筛选前后数值及源码可逆逻辑见bi-browser.json。；
+A13=4/4：390px页面纵向堆叠，document.scrollWidth=390，4。；
+Q1=5/10：页面KPI=54532055分；
+当前CSV paid合计=54159050分；
+逐页明细paid合计=54159050分，KPI一处矛盾，按锚点5分。；
+Q2=8/8：README明确三项定义，32项测试通过，含计算测试。；
+Q3=3/6：1440×900可用但KPI卡较高，核心内容超过一屏，按松散3分。；
+Q4=6/6：API封装与卡片展示覆盖加载/空数据/超时/接口错误，各1.5，共6。；
+证据：.evaluation/glm-bi-tests.log、reconciliation.json、sse.json、bi-browser.json、browser.json及glm-fe2.png/glm-fe2-mobile.png。SSE记录单位为分；
+协议客户端通过不等于页面KPI通过。</div></details></div></article></div></main><footer>评分依据：每份产物对应的 grade.txt。无音轨。HTML 与 assets 文件夹一起保留即可离线打开。<br>操作记录：<a href="recording-log.json">recording-log.json</a> · 完整评分见上方逐项原因</footer><div class="modal"><button class="close" aria-label="关闭">×</button><video controls playsinline></video></div><script>const vs=[...document.querySelectorAll('.grid video')],play=document.querySelector('#play'),seek=document.querySelector('#seek'),time=document.querySelector('#time'),status=document.querySelector('#status');let playing=false,drag=false;const fmt=t=>`${Math.floor((t||0)/60)}:${String(Math.floor((t||0)%60)).padStart(2,'0')}`;function duration(){return Math.max(0,...vs.map(v=>Number.isFinite(v.duration)?v.duration:0))}function pause(){vs.forEach(v=>v.pause());playing=false;play.textContent='▶ 同时播放'}async function start(){let t=+seek.value;vs.forEach(v=>{if(Math.abs(v.currentTime-t)>.4)v.currentTime=Math.min(t,v.duration||t)});let res=await Promise.allSettled(vs.map(v=>v.play()));playing=res.some(r=>r.status==='fulfilled');play.textContent=playing?'Ⅱ 同时暂停':'▶ 同时播放';status.textContent=res.some(r=>r.status==='rejected')?'部分视频无法播放，请点击重试或使用Chrome/Edge。':'三个窗口播放同一组实际操作阶段'}play.onclick=()=>playing?pause():start();function jump(t){vs.forEach(v=>v.currentTime=Math.min(t,v.duration||t));seek.value=t;time.textContent=fmt(t)+' / '+fmt(duration())}document.querySelector('#reset').onclick=()=>{pause();jump(0)};seek.oninput=()=>{drag=true;jump(+seek.value)};seek.onchange=()=>drag=false;document.querySelector('#speed').onchange=e=>vs.forEach(v=>v.playbackRate=+e.target.value);vs.forEach(v=>{v.addEventListener('loadedmetadata',()=>{seek.max=duration();time.textContent=fmt(+seek.value)+' / '+fmt(duration())});v.addEventListener('error',()=>status.textContent='视频加载失败，请保持HTML与assets文件夹在同一目录。')});setInterval(()=>{if(!playing||drag)return;let t=Math.max(...vs.map(v=>v.currentTime));seek.value=t;time.textContent=fmt(t)+' / '+fmt(duration());vs.forEach(v=>{if(!v.ended&&Math.abs(v.currentTime-t)>.6)v.currentTime=Math.min(t,v.duration)});if(vs.every(v=>v.ended))pause()},250);document.querySelectorAll('[data-seek]').forEach(b=>b.onclick=()=>jump(+b.dataset.seek));const modal=document.querySelector('.modal'),large=modal.querySelector('video');document.querySelectorAll('.media').forEach(w=>w.onclick=()=>{pause();const v=w.querySelector('video');large.src=v.currentSrc||v.src;large.currentTime=v.currentTime;modal.classList.add('open')});function close(){large.pause();modal.classList.remove('open')}modal.querySelector('button').onclick=close;modal.onclick=e=>{if(e.target===modal)close()};document.onkeydown=e=>{if(e.key==='Escape')close()};</script></html>

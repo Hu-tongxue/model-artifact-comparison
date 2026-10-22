@@ -1,0 +1,194 @@
+{
+  "FE-01-285b": [
+    {
+      "label": "打开产物",
+      "time": 0,
+      "ok": true,
+      "url": "http://127.0.0.1:3101/#/"
+    },
+    {
+      "label": "搜索北京到上海，2026-10-24",
+      "time": 7,
+      "ok": true,
+      "url": "http://127.0.0.1:3101/#/flights"
+    },
+    {
+      "label": "航空公司筛选对比",
+      "time": 21,
+      "ok": true,
+      "url": "http://127.0.0.1:3101/#/flights"
+    },
+    {
+      "label": "选择航班并跳过酒店",
+      "time": 29,
+      "ok": true,
+      "url": "http://127.0.0.1:3101/#/checkout"
+    },
+    {
+      "label": "输入TRIP100，检查优惠券与总价联动",
+      "time": 39,
+      "ok": true,
+      "url": "http://127.0.0.1:3101/#/checkout"
+    }
+  ],
+  "FE-01-deepseek": [
+    {
+      "label": "打开产物",
+      "time": 0,
+      "ok": true,
+      "url": "http://127.0.0.1:3102/"
+    },
+    {
+      "label": "搜索北京到上海，2026-10-24",
+      "time": 7,
+      "ok": true,
+      "url": "http://127.0.0.1:3102/#/flights"
+    },
+    {
+      "label": "航空公司筛选对比",
+      "time": 21,
+      "ok": true,
+      "url": "http://127.0.0.1:3102/#/flights"
+    },
+    {
+      "label": "选择航班并跳过酒店",
+      "time": 29,
+      "ok": true,
+      "url": "http://127.0.0.1:3102/#/checkout"
+    },
+    {
+      "label": "输入TRIP100，检查优惠券与总价联动",
+      "time": 39,
+      "ok": true,
+      "url": "http://127.0.0.1:3102/#/checkout"
+    }
+  ],
+  "FE-01-glm": [
+    {
+      "label": "打开产物",
+      "time": 0,
+      "ok": true,
+      "url": "http://127.0.0.1:3103/"
+    },
+    {
+      "label": "搜索北京到上海，2026-10-24",
+      "time": 7,
+      "ok": true,
+      "url": "http://127.0.0.1:3103/#/flights"
+    },
+    {
+      "label": "航空公司筛选对比",
+      "time": 20,
+      "ok": true,
+      "url": "http://127.0.0.1:3103/#/flights"
+    },
+    {
+      "label": "选择航班并跳过酒店",
+      "time": 28,
+      "ok": true,
+      "url": "http://127.0.0.1:3103/#/checkout"
+    },
+    {
+      "label": "输入TRIP100，检查优惠券与总价联动",
+      "time": 38,
+      "ok": true,
+      "url": "http://127.0.0.1:3103/#/checkout"
+    }
+  ],
+  "FE-02-glm": [
+    {
+      "label": "打开产物",
+      "time": 0,
+      "ok": true,
+      "url": "http://127.0.0.1:3203/"
+    },
+    {
+      "label": "概览七类组件",
+      "time": 6,
+      "ok": true,
+      "url": "http://127.0.0.1:3203/"
+    },
+    {
+      "label": "向下查看订单明细",
+      "time": 11,
+      "ok": true,
+      "url": "http://127.0.0.1:3203/"
+    },
+    {
+      "label": "订单搜索及CSV入口",
+      "time": 17,
+      "ok": true,
+      "url": "http://127.0.0.1:3203/"
+    },
+    {
+      "label": "导出当前结果",
+      "time": 24,
+      "ok": true,
+      "url": "http://127.0.0.1:3203/"
+    }
+  ],
+  "FE-02-285b": [
+    {
+      "label": "打开产物",
+      "time": 0,
+      "ok": true,
+      "url": "http://127.0.0.1:3301/"
+    },
+    {
+      "label": "概览七类组件",
+      "time": 6,
+      "ok": true,
+      "url": "http://127.0.0.1:3301/"
+    },
+    {
+      "label": "向下查看订单明细",
+      "time": 11,
+      "ok": true,
+      "url": "http://127.0.0.1:3301/"
+    },
+    {
+      "label": "订单搜索及CSV入口",
+      "time": 17,
+      "ok": true,
+      "url": "http://127.0.0.1:3301/"
+    },
+    {
+      "label": "导出当前结果",
+      "time": 24,
+      "ok": true,
+      "url": "http://127.0.0.1:3301/"
+    }
+  ],
+  "FE-02-deepseek": [
+    {
+      "label": "打开产物",
+      "time": 0,
+      "ok": true,
+      "url": "http://127.0.0.1:3202/"
+    },
+    {
+      "label": "概览七类组件",
+      "time": 6,
+      "ok": true,
+      "url": "http://127.0.0.1:3202/"
+    },
+    {
+      "label": "向下查看订单明细",
+      "time": 11,
+      "ok": true,
+      "url": "http://127.0.0.1:3202/"
+    },
+    {
+      "label": "订单搜索及CSV入口",
+      "time": 17,
+      "ok": true,
+      "url": "http://127.0.0.1:3202/"
+    },
+    {
+      "label": "导出当前结果",
+      "time": 24,
+      "ok": true,
+      "url": "http://127.0.0.1:3202/"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FE-01 · 三模型产物对比</title><style>*{box-sizing:border-box}body{margin:0;background:#0b1019;color:#e6ebf5;font:15px/1.65 system-ui,-apple-system,"Microsoft YaHei",sans-serif}header,main,footer{max-width:1800px;margin:auto;padding:24px 32px}header{padding-bottom:16px}a{color:#9fc8ff}nav{display:flex;gap:18px;font-size:13px}.eyebrow{color:#80b4fa;font-size:12px;letter-spacing:2px;margin-top:24px}h1{font-size:30px;margin:8px 0}h2{font-size:20px;margin:0}p{color:#aebad0;margin:10px 0}.controls{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:15px 20px;background:#182234f2;border:1px solid #2b3b54;border-radius:12px;backdrop-filter:blur(12px)}button,select{border:1px solid #425572;background:#22334e;color:#f0f5ff;border-radius:7px;padding:9px 14px;cursor:pointer}button.primary{background:#3879ed;border-color:#3879ed}input[type=range]{flex:1;min-width:160px;accent-color:#75a8ff}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px}.card{background:#121c2c;border:1px solid #293750;border-radius:14px;overflow:hidden}.head{padding:18px 20px;display:flex;justify-content:space-between;align-items:center}.score{font-size:25px;font-weight:750;color:#a7d1ff}.score small{font-size:12px;color:#879bb9}.media{background:#000;position:relative;cursor:zoom-in}video{display:block;width:100%;aspect-ratio:1.6;object-fit:contain}.zoom{position:absolute;right:8px;bottom:8px;font-size:12px;background:#0b1019dd;padding:4px 8px;border-radius:5px;pointer-events:none}.body{padding:18px 20px}.finding{font-size:16px;font-weight:650;color:#edf3ff}.badge{display:inline-block;padding:3px 9px;background:#27334a;border-radius:5px;font-size:12px;color:#aec2e2}.card:first-child .badge{background:#492d24;color:#ffd0b4}details{border-top:1px solid #2a3850;margin-top:20px;padding-top:14px}summary{cursor:pointer;color:#a7c8ff}.rubric{font-size:13px;color:#b9c6dc;white-space:pre-wrap;line-height:1.9}.notice{border-left:3px solid #678ccc;padding:12px 18px;background:#111d30;margin:20px 0}.chapters{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.chapters button{font-size:12px}.status{font-size:12px;color:#9eb3d1}footer{font-size:12px;color:#8496b1;padding-bottom:40px}.modal{position:fixed;inset:0;z-index:20;background:#000d;display:none;align-items:center;justify-content:center;padding:25px}.modal.open{display:flex}.modal video{max-width:1280px;max-height:90vh;aspect-ratio:1.6}.close{position:absolute;top:12px;right:20px;font-size:22px}@media(max-width:1000px){header,main,footer{padding-left:14px;padding-right:14px}.grid{gap:8px}.head,.body{padding:12px}.score{font-size:21px}h2{font-size:16px}h1{font-size:25px}}@media(max-width:700px){.grid{grid-template-columns:1fr}.controls{position:static}}</style><header><nav><a href="FE-01.html">FE-01 旅行预订</a><a href="FE-02.html">FE-02 BI 仪表盘</a></nav><div class="eyebrow">ACTUAL SCREEN RECORDINGS · FE-01</div><h1>旅行预订平台：三个模型，同场景对比</h1><p>同一航线搜索 → 航司筛选 → 酒店与结算 → 优惠券反馈</p></header><main><div class="controls"><button id="play" class="primary">▶ 同时播放</button><button id="reset">↺ 从头开始</button><input id="seek" type="range" min="0" max="100" step="0.1" value="0" aria-label="同步播放进度"><span id="time">0:00 / 加载中</span><select id="speed" aria-label="播放速度"><option value="1">1×</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="0.75">0.75×</option></select><span class="status" id="status">点击“同时播放”；点击任意视频可放大</span></div><div class="chapters"><button data-seek="0">0s · 打开产物</button><button data-seek="7">7s · 搜索北京到上海，2026-10-24</button><button data-seek="21">21s · 航空公司筛选对比</button><button data-seek="29">29s · 选择航班并跳过酒店</button><button data-seek="39">39s · 输入TRIP100，检查优惠券与总价联动</button></div><div class="notice">录屏来自对原始产物的真实浏览器操作，不是重绘演示。三窗口按操作阶段对齐，各模型响应时间可能不同。下方分数来自完整评分 CSV，录屏仅展示部分评分点；可用入口不代表该产物其他功能全部通过。</div><div class="grid"><article class="card"><div class="head"><h2>285b</h2><span class="badge">重点核验</span></div><div class="media" title="点击放大查看"><video muted playsinline preload="metadata" poster="assets/FE-01-285b.png" src="assets/FE-01-285b.webm"></video><span class="zoom">⤢ 点击放大</span></div><div class="body"><div class="score">67 <small>/ 100 · 本题总分</small></div><p class="finding">缺少航司筛选；优惠券状态判断错误。</p><p>航班页只有价格、经停、时段和排序，没有航空公司筛选入口。优惠券校验结果存为对象，但计价与提交使用 === true 判断，导致有效优惠券无法联动折扣。本次5名旅客已达到门槛；应用TRIP100后费用明细仍空白，未展示折扣与总价。</p><details><summary>逐项分数与完整评分原因</summary><div class="rubric">FE-01；
+按grade逐项相加，满分100。A1=4/4：独立启动后核验 /api/airports、/api/flights、/api/hotels、POST /api/bookings、POST /api/payments；
+接口均可调用。；
+A2=3/4：搜索页有往返/联想/日历；
+人数舱位select初始显示9成人、5儿童、头等舱，实际state仍1成人、0儿童、经济舱（selected=false仍设布尔属性），人数舱位项不给分。；
+A3=2/6：PEK→SHA 2026-10-24服务端30条=2；
+页面无航司过滤控件，价格/时段/经停/排序存在，但组合过滤排序4分检查点不完整=0。；
+A4=3/5：酒店默认10-24→10-25=2、可跳过=1；
+设施下拉“停车场”与数据“停车”不匹配，过滤排序检查点=0。；
+A5=3/6：多旅客/必填邮箱手机校验得3；
+couponValid被存为对象却用===true判定，优惠券不参与总价/提交，联动3分=0。；
+A6=6/6：浏览器实际完成搜索→选择航班→酒店页跳过→结算→支付成功→我的订单。；
+A7=5/5：订单卡→详情→取消退款及退款状态；
+刷新订单仍存在，5/5。；
+A8=4/4：修改 airports.json 第一项城市为“评分种子验证”，另端口重启，GET /api/airports 返回修改值；
+页面城市联想使用该接口。证据 seed-test.json。；
+A9=0/6：未取得延迟接口连续变更筛选的实测通过证据，严格0/1不给分；
+不能以存在AbortController代替实测。；
+A10=6/6：POST同键2次返回BK-0003/BK-0003；
+订单列表总数1→2，新增恰好1单。证据285b-travel-api.json。；
+A11=2/6：零库存下单409=2；
+预订前13座，失败402与超时408后12座，仍占1座，失败/超时各0。；
+A12=6/6：固定参数故障注入409/500或支付失败可复现；
+同参数机场请求确定性200–800ms（285b仅机场接口有延迟）。；
+A13=4/6：返程不晚于去程及同机场会阻止=4；
+过去日期仅input min，无提交拦截，键盘填写仍可进入搜索=0。；
+Q1=4/8：航班/酒店/订单有加载空错误，机场/优惠券等状态不完整，部分覆盖=4。；
+Q2=4/8：部分字段初始有错误文字，但提交主要toast且输入后错误不及时定位更新，整体报错档=4。；
+Q3=3/6：桌面布局可用，但原生选择器与内容间距较粗糙，3分档。；
+Q4=8/8：390px实走搜索到结算支付，页面宽390且订单可见，8分。；
+证据目录：.evaluation/，接口日志及浏览器流程 flows3.json/flows4.json/finalchecks.json、截图 285b-paid-mobile.png（glm另见glm-paid-final.png）。截图中文字方框为评测环境缺少中文字体，不作为产物缺陷扣分。</div></details></div></article><article class="card"><div class="head"><h2>deepseek</h2><span class="badge">同场景对照</span></div><div class="media" title="点击放大查看"><video muted playsinline preload="metadata" poster="assets/FE-01-deepseek.png" src="assets/FE-01-deepseek.webm"></video><span class="zoom">⤢ 点击放大</span></div><div class="body"><div class="score">90 <small>/ 100 · 本题总分</small></div><p class="finding">有航司筛选和优惠券计价流程。</p><p>可勾选航空公司并更新航班结果；本次5人费用4,952元，应用TRIP100后减100元至4,852元。总分仍包含未取得有效实测证据的过期响应项扣6分，以及三态覆盖不完整扣4分。</p><details><summary>逐项分数与完整评分原因</summary><div class="rubric">FE-01；
+按grade逐项相加，满分100。A1=4/4：独立启动后核验 /api/airports、/api/flights、/api/hotels、POST /api/bookings、POST /api/payments；
+接口均可调用。；
+A2=4/4：搜索页往返、机场联想、去返日历、人数舱位均存在且可操作。；
+A3=6/6：PEK→SHA 10-24经济舱36班；
+价格/起降时段/航司/经停筛选与多字段排序可操作，接口脚本含组合过滤。；
+A4=5/5：行程日期默认匹配；
+价位/星级/设施及排序有绑定；
+酒店可跳过，flows3.json。；
+A5=6/6：多旅客可增删，必填/邮箱/手机号有校验；
+优惠券应用重算票价、税费、服务费与总额。；
+A6=6/6：浏览器实际完成搜索→选择航班→酒店页跳过→结算→支付成功→我的订单。；
+A7=5/5：订单BK5详情、未来订单取消退款、REFUNDING→REFUNDED及刷新持久化均核验；
+脚本日志有取消退款结果。；
+A8=4/4：修改 airports.json 第一项城市为“评分种子验证”，另端口重启，GET /api/airports 返回修改值；
+页面城市联想使用该接口。证据 seed-test.json。；
+A9=0/6：本次连续切换排序只触发本地排序，网络记录urls为空，未取得延迟查询竞争的有效实测证据；
+依grade明确要求实测，本项不给分，不能据防护代码判通过。；
+A10=6/6：脚本两次同键下单返回同一ID，订单列表筛该键count=1；
+deepseek-travel-tests.log。；
+A11=6/6：余票1并发下单201+409；
+支付失败后可再次订该票；
+超时后库存释放；
+脚本三项通过。；
+A12=6/6：固定参数故障注入409/500或支付失败可复现；
+同参数机场请求确定性200–800ms（285b仅机场接口有延迟）。；
+A13=6/6：submit显式拒绝过去日期、同机场、返程&lt;=去程；
+路径首页日期及城市选择→搜索。；
+Q1=4/8：主流程加载空错误均有，机场联想等局部失败主要toast，按部分覆盖4分。；
+Q2=8/8：结算错误定位旅客与具体字段、联系人字段，8分档。；
+Q3=6/6：桌面旅行平台布局完整，主次清晰无明显错位，6分。；
+Q4=8/8：390px实际搜索→BK5支付成功→订单可见，宽度390，8分。；
+证据目录：.evaluation/，接口日志及浏览器流程 flows3.json/flows4.json/finalchecks.json、截图 deepseek-paid-mobile.png（glm另见glm-paid-final.png）。截图中文字方框为评测环境缺少中文字体，不作为产物缺陷扣分。</div></details></div></article><article class="card"><div class="head"><h2>GLM</h2><span class="badge">同场景对照</span></div><div class="media" title="点击放大查看"><video muted playsinline preload="metadata" poster="assets/FE-01-glm.png" src="assets/FE-01-glm.webm"></video><span class="zoom">⤢ 点击放大</span></div><div class="body"><div class="score">90 <small>/ 100 · 本题总分</small></div><p class="finding">有航司筛选；仍存在酒店与库存问题。</p><p>航空公司按钮可筛选结果；本次5人费用1,566元，应用TRIP100后减100元至1,466元。酒店默认日期错误扣2分，支付失败/超时仍占库存扣4分，三态覆盖不完整扣4分。</p><details><summary>逐项分数与完整评分原因</summary><div class="rubric">FE-01；
+按grade逐项相加，满分100。A1=4/4：独立启动后核验 /api/airports、/api/flights、/api/hotels、POST /api/bookings、POST /api/payments；
+接口均可调用。；
+A2=4/4：首页往返/城市联想/日历/人数舱位可用。；
+A3=6/6：自带实际API测试SHA→CAN 10-22总数&gt;=30通过；
+价格/时段/航司/经停/排序均提供并绑定服务端查询。；
+A4=3/5：过滤排序=2、跳过=1；
+10-24出发酒店默认10-24入住且10-24离店，不匹配合法住宿区间，日期2分=0（flows4.json）。；
+A5=6/6：多旅客、必填/手机号/邮箱校验；
+/api/quote优惠券与税费总额联动，实测API报价与优惠券通过。；
+A6=6/6：浏览器实际完成搜索→选择航班→酒店页跳过→结算→支付成功→我的订单。；
+A7=5/5：订单详情/待支付取消/已支付退款到refunded/刷新可见均通过；
+glm-travel-tests.log及finalchecks.json。；
+A8=4/4：修改 airports.json 第一项城市为“评分种子验证”，另端口重启，GET /api/airports 返回修改值；
+页面城市联想使用该接口。证据 seed-test.json。；
+A9=6/6：价格倒序旧响应延迟800ms，紧接起飞升序响应延迟200ms，最终列表从06:00起升序，旧响应未覆盖；
+races.json。；
+A10=6/6：相同键3次请求后列表该键订单数1；
+glm-travel-tests.log。；
+A11=2/6：库存不足409=2；
+建单已扣库存，TEST_PAYMENT_FAIL和TEST_PAYMENT_TIMEOUT仍保持占用、不释放，后两项各0。；
+A12=6/6：固定参数故障注入409/500或支付失败可复现；
+同参数机场请求确定性200–800ms（285b仅机场接口有延迟）。；
+A13=6/6：首页提交对倒置返程/同城市/过去日期显式阻止，日期及城市错误提示可定位。；
+Q1=4/8：结果及订单等页面具备三态，搜索初始机场与结算多步加载缺独立空/错误恢复，部分覆盖4分。；
+Q2=8/8：旅客分块明确列出错误字段，联系人电话邮箱分别校验，8分档。；
+Q3=6/6：桌面页面层次清楚、布局无明显错位，6分。；
+Q4=8/8：390px实际搜索/酒店/结算到BK-0013，另由该订单去支付成功并可见；
+8分。；
+证据目录：.evaluation/，接口日志及浏览器流程 flows3.json/flows4.json/finalchecks.json、截图 glm-paid-mobile.png（glm另见glm-paid-final.png）。截图中文字方框为评测环境缺少中文字体，不作为产物缺陷扣分。</div></details></div></article></div></main><footer>评分依据：每份产物对应的 grade.txt。无音轨。HTML 与 assets 文件夹一起保留即可离线打开。<br>操作记录：<a href="recording-log.json">recording-log.json</a> · 完整评分见上方逐项原因</footer><div class="modal"><button class="close" aria-label="关闭">×</button><video controls playsinline></video></div><script>const vs=[...document.querySelectorAll('.grid video')],play=document.querySelector('#play'),seek=document.querySelector('#seek'),time=document.querySelector('#time'),status=document.querySelector('#status');let playing=false,drag=false;const fmt=t=>`${Math.floor((t||0)/60)}:${String(Math.floor((t||0)%60)).padStart(2,'0')}`;function duration(){return Math.max(0,...vs.map(v=>Number.isFinite(v.duration)?v.duration:0))}function pause(){vs.forEach(v=>v.pause());playing=false;play.textContent='▶ 同时播放'}async function start(){let t=+seek.value;vs.forEach(v=>{if(Math.abs(v.currentTime-t)>.4)v.currentTime=Math.min(t,v.duration||t)});let res=await Promise.allSettled(vs.map(v=>v.play()));playing=res.some(r=>r.status==='fulfilled');play.textContent=playing?'Ⅱ 同时暂停':'▶ 同时播放';status.textContent=res.some(r=>r.status==='rejected')?'部分视频无法播放，请点击重试或使用Chrome/Edge。':'三个窗口播放同一组实际操作阶段'}play.onclick=()=>playing?pause():start();function jump(t){vs.forEach(v=>v.currentTime=Math.min(t,v.duration||t));seek.value=t;time.textContent=fmt(t)+' / '+fmt(duration())}document.querySelector('#reset').onclick=()=>{pause();jump(0)};seek.oninput=()=>{drag=true;jump(+seek.value)};seek.onchange=()=>drag=false;document.querySelector('#speed').onchange=e=>vs.forEach(v=>v.playbackRate=+e.target.value);vs.forEach(v=>{v.addEventListener('loadedmetadata',()=>{seek.max=duration();time.textContent=fmt(+seek.value)+' / '+fmt(duration())});v.addEventListener('error',()=>status.textContent='视频加载失败，请保持HTML与assets文件夹在同一目录。')});setInterval(()=>{if(!playing||drag)return;let t=Math.max(...vs.map(v=>v.currentTime));seek.value=t;time.textContent=fmt(t)+' / '+fmt(duration());vs.forEach(v=>{if(!v.ended&&Math.abs(v.currentTime-t)>.6)v.currentTime=Math.min(t,v.duration)});if(vs.every(v=>v.ended))pause()},250);document.querySelectorAll('[data-seek]').forEach(b=>b.onclick=()=>jump(+b.dataset.seek));const modal=document.querySelector('.modal'),large=modal.querySelector('video');document.querySelectorAll('.media').forEach(w=>w.onclick=()=>{pause();const v=w.querySelector('video');large.src=v.currentSrc||v.src;large.currentTime=v.currentTime;modal.classList.add('open')});function close(){large.pause();modal.classList.remove('open')}modal.querySelector('button').onclick=close;modal.onclick=e=>{if(e.target===modal)close()};document.onkeydown=e=>{if(e.key==='Escape')close()};</script></html>
