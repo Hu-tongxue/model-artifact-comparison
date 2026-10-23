@@ -1,0 +1,453 @@
+[
+  {
+    "model": "xing",
+    "steps": [
+      {
+        "step": "打开物理沙盒",
+        "seconds": 0,
+        "ok": true
+      },
+      {
+        "step": "加载演示场景",
+        "seconds": 2,
+        "ok": true
+      },
+      {
+        "step": "运行演示：重力、碰撞与摆锤",
+        "seconds": 4,
+        "ok": true
+      },
+      {
+        "step": "暂停并单步观察",
+        "seconds": 13,
+        "ok": true
+      },
+      {
+        "step": "复位并回到编辑",
+        "seconds": 16,
+        "ok": true
+      },
+      {
+        "step": "开启自由搭建",
+        "seconds": 18,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：ball",
+        "seconds": 19,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：box",
+        "seconds": 20,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：ramp",
+        "seconds": 21,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：wall",
+        "seconds": 22,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：bumper",
+        "seconds": 23,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：pendulum",
+        "seconds": 24,
+        "ok": true
+      },
+      {
+        "step": "修改摆锤长度和旋转",
+        "seconds": 25,
+        "ok": true
+      },
+      {
+        "step": "复制、删除、撤销",
+        "seconds": 27,
+        "ok": true
+      },
+      {
+        "step": "网格吸附与画布缩放",
+        "seconds": 29,
+        "ok": true
+      },
+      {
+        "step": "选择新球并调整材质",
+        "seconds": 31,
+        "ok": true
+      },
+      {
+        "step": "调整重力并施加冲量",
+        "seconds": 33,
+        "ok": true
+      },
+      {
+        "step": "暂停、复位、回到编辑",
+        "seconds": 39,
+        "ok": true
+      },
+      {
+        "step": "导出场景JSON",
+        "seconds": 41,
+        "ok": true
+      },
+      {
+        "step": "导入刚刚导出的场景",
+        "seconds": 44,
+        "ok": true
+      },
+      {
+        "step": "浏览每个谜题关卡",
+        "seconds": 46,
+        "ok": true
+      },
+      {
+        "step": "选择第一关并添加斜坡",
+        "seconds": 55,
+        "ok": true
+      },
+      {
+        "step": "运行关卡并观察目标判定",
+        "seconds": 57,
+        "ok": true
+      },
+      {
+        "step": "关卡结果与重玩",
+        "seconds": 69,
+        "ok": true
+      },
+      {
+        "step": "返回演示场景",
+        "seconds": 71,
+        "ok": true
+      }
+    ],
+    "errors": [],
+    "levels": [
+      {
+        "value": "sandbox",
+        "text": "🧪 自由沙盒"
+      },
+      {
+        "value": "demo",
+        "text": "🎬 演示场景"
+      },
+      {
+        "value": "LV1",
+        "text": "🧩 物理谜题1 · 初识斜坡"
+      },
+      {
+        "value": "LV2",
+        "text": "🧩 物理谜题2 · 双重接力"
+      },
+      {
+        "value": "LV3",
+        "text": "🧩 物理谜题3 · 架桥渡球"
+      },
+      {
+        "value": "LV4",
+        "text": "🧩 物理谜题4 · 弹力反弹"
+      },
+      {
+        "value": "LV5",
+        "text": "🧩 物理谜题5 · 终极挑战"
+      }
+    ],
+    "finalText": "⚛\nPhysicsLab\n🧪 自由沙盒\n🎬 演示场景\n🧩 物理谜题1 · 初识斜坡\n🧩 物理谜题2 · 双重接力\n🧩 物理谜题3 · 架桥渡球\n🧩 物理谜题4 · 弹力反弹\n🧩 物理谜题5 · 终极挑战\n🎬 演示场景\n🧪 自由沙盒\n↺ 重置关卡\n📝 编辑模式\n▶ 仿真模式\n↩\n↪\n⧉\n🗑\n⊞\n⬇ 导出JSON\n⬆ 导入JSON\n物体库\n5/∞\n圆球\n动态 · 受重力\n矩形箱\n动态 · 可堆叠\n斜坡\n静态 · 引导滑道\n静态墙\n固定 · 高摩擦\n弹性垫\n固定 · 超弹反弹\n铰接摆锤\n动态 · 摆动撞击\n拖放物体到画布即可创建。\n🖱 单击选中 · 拖动移动\n🔨 顶部手柄旋转 · R 键旋转 15°\n⌫ Del 删除 · Ctrl+D 复制\n滚轮缩放 · 空格+拖拽平移\n编辑模式 · 物体冻结\n−\n170%\n＋\n⛶\n🎯\n演示场景：点击「开始」观看斜坡滑行 → 摆锤撞击 → 弹性垫反弹入目标的组合表演。\n🔵 球已停下 / 出界了\n复位后可重新调整物体布局再试\n⟲ 复位重试\n继续观察\n🏆 通关成功！\n小球在仿真中真实进入了目标区域\n↺ 再玩一次\n下一关 ➜\n属性面板\n🖱\n在画布中选中一个物体\n即可编辑它的物理属性\n状态：编辑模式\n物体\n5\n/\n∞\n物理步长\n16.67ms\n· 60Hz\nFPS\n60\n重力\n(0.00, 1.00)\n就绪 — 演示场景：点击「开始」观看斜坡滑行 → 摆锤撞击 → 弹性垫反弹入目标的组合表演。\n已返回编辑模式"
+  },
+  {
+    "model": "dp-08",
+    "steps": [
+      {
+        "step": "打开物理沙盒",
+        "seconds": 0,
+        "ok": true
+      },
+      {
+        "step": "加载演示场景",
+        "seconds": 2,
+        "ok": true
+      },
+      {
+        "step": "运行演示：重力、碰撞与摆锤",
+        "seconds": 4,
+        "ok": true
+      },
+      {
+        "step": "暂停并单步观察",
+        "seconds": 13,
+        "ok": true
+      },
+      {
+        "step": "复位并回到编辑",
+        "seconds": 16,
+        "ok": true
+      },
+      {
+        "step": "开启自由搭建",
+        "seconds": 18,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：ball",
+        "seconds": 19,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：box",
+        "seconds": 20,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：ramp",
+        "seconds": 21,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：wall",
+        "seconds": 22,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：bumper",
+        "seconds": 23,
+        "ok": true
+      },
+      {
+        "step": "添加并定位：pendulum",
+        "seconds": 24,
+        "ok": true
+      },
+      {
+        "step": "修改摆锤长度和旋转",
+        "seconds": 25,
+        "ok": true
+      },
+      {
+        "step": "复制、删除、撤销",
+        "seconds": 27,
+        "ok": false,
+        "error": "locator.click: Timeout 4500ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#btn-copy')\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"tool\" id=\"btn-copy\" title=\"复制选中物体 (Ctrl+D)\">复制</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    8 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n"
+      },
+      {
+        "step": "网格吸附与画布缩放",
+        "seconds": 33,
+        "ok": true
+      },
+      {
+        "step": "选择新球并调整材质",
+        "seconds": 35,
+        "ok": true
+      },
+      {
+        "step": "调整重力并施加冲量",
+        "seconds": 37,
+        "ok": true
+      },
+      {
+        "step": "暂停、复位、回到编辑",
+        "seconds": 44,
+        "ok": true
+      },
+      {
+        "step": "导出场景JSON",
+        "seconds": 46,
+        "ok": true
+      },
+      {
+        "step": "导入刚刚导出的场景",
+        "seconds": 48,
+        "ok": true
+      },
+      {
+        "step": "浏览每个谜题关卡",
+        "seconds": 50,
+        "ok": true
+      },
+      {
+        "step": "选择第一关并添加斜坡",
+        "seconds": 61,
+        "ok": true
+      },
+      {
+        "step": "运行关卡并观察目标判定",
+        "seconds": 63,
+        "ok": true
+      },
+      {
+        "step": "关卡结果与重玩",
+        "seconds": 75,
+        "ok": true
+      },
+      {
+        "step": "返回演示场景",
+        "seconds": 77,
+        "ok": true
+      }
+    ],
+    "errors": [
+      "Converting circular structure to JSON\n    --> starting at object with constructor 'Object'\n    |     property 'parts' -> object with constructor 'Array'\n    --- index 0 closes the circle",
+      "Converting circular structure to JSON\n    --> starting at object with constructor 'Object'\n    |     property 'parts' -> object with constructor 'Array'\n    --- index 0 closes the circle"
+    ],
+    "levels": [
+      {
+        "value": "LV0",
+        "text": "LV0 · 入门滑梯"
+      },
+      {
+        "value": "LV1",
+        "text": "LV1 · 接力双坡"
+      },
+      {
+        "value": "LV2",
+        "text": "LV2 · 弹性弹射"
+      },
+      {
+        "value": "LV3",
+        "text": "LV3 · 摆锤一击"
+      },
+      {
+        "value": "LV4",
+        "text": "LV4 · 之字下坡"
+      },
+      {
+        "value": "LV5",
+        "text": "LV5 · 悬崖投洞"
+      }
+    ],
+    "finalText": "PhysicsLab二维物理沙盒 · 益智关卡\n✏️ 编辑\n▶ 仿真\n关卡\nLV0 · 入门滑梯\nLV1 · 接力双坡\nLV2 · 弹性弹射\nLV3 · 摆锤一击\nLV4 · 之字下坡\nLV5 · 悬崖投洞\n演示\n重置\n↩\n撤销\n删除\n复制\n网格\n重力 Y\n1.0\n▶ 开始\n⏸ 暂停\n步进\n⚡冲量\n导出\n导入\n物体库 （拖放或点击添加）\n●\n小球\n圆 · 滚得动\n▮\n方块\n方块 · 可叠\n◢\n斜坡\n斜面 · 让球滑\n▭\n墙\n静态 · 挡板\n◉\n弹性垫\n高弹 · 弹开球\n⚖\n摆锤\n铰接 · 摆锤击球\n编辑模式：拖入物体，点击选中后可拖动 / 滚轮旋转。\n仿真模式：拖拽物体掷出可施加冲量。\n快捷键：Del 删除 · Ctrl+Z 撤销 · Ctrl+D 复制 · R 旋转 · G 网格\n编辑模式 · 物体静止，可摆放\n演示场景已加载\n属性面板\n自由演示\n自由摆放物体，体验物理模拟。\n目标 自由模拟\n物体上限 8\n重力 1\n提示：自由发挥，把球送进目标圈就算过关。\n在画布中点击物体以查看 / 修改属性。\n\n编辑模式：可拖动、滚轮旋转。\n仿真模式：开始后拖动物体可掷出（惯性冲量）。"
+  },
+  {
+    "model": "glm",
+    "steps": [
+      {
+        "step": "打开物理沙盒",
+        "seconds": 0,
+        "ok": true
+      },
+      {
+        "step": "加载演示场景",
+        "seconds": 2,
+        "ok": true
+      },
+      {
+        "step": "运行演示：重力与碰撞",
+        "seconds": 4,
+        "ok": true
+      },
+      {
+        "step": "暂停与四次单步",
+        "seconds": 13,
+        "ok": true
+      },
+      {
+        "step": "复位、编辑并清空场景",
+        "seconds": 16,
+        "ok": true
+      },
+      {
+        "step": "拖入物体：ball",
+        "seconds": 18,
+        "ok": true
+      },
+      {
+        "step": "拖入物体：box",
+        "seconds": 19,
+        "ok": true
+      },
+      {
+        "step": "拖入物体：ramp",
+        "seconds": 20,
+        "ok": true
+      },
+      {
+        "step": "拖入物体：wall",
+        "seconds": 22,
+        "ok": true
+      },
+      {
+        "step": "拖入物体：bumper",
+        "seconds": 23,
+        "ok": true
+      },
+      {
+        "step": "拖入物体：pendulum",
+        "seconds": 24,
+        "ok": true
+      },
+      {
+        "step": "修改密度摩擦弹性角度尺寸",
+        "seconds": 26,
+        "ok": true
+      },
+      {
+        "step": "切换静态属性",
+        "seconds": 27,
+        "ok": true
+      },
+      {
+        "step": "复制删除与撤销",
+        "seconds": 30,
+        "ok": true
+      },
+      {
+        "step": "网格与重力调整",
+        "seconds": 32,
+        "ok": true
+      },
+      {
+        "step": "画布缩放与拖动物体",
+        "seconds": 34,
+        "ok": true
+      },
+      {
+        "step": "运行并拖拽施加冲量",
+        "seconds": 36,
+        "ok": true
+      },
+      {
+        "step": "底部暂停、单步和复位按钮",
+        "seconds": 42,
+        "ok": true
+      },
+      {
+        "step": "导出场景JSON",
+        "seconds": 44,
+        "ok": true
+      },
+      {
+        "step": "导入刚导出的JSON",
+        "seconds": 47,
+        "ok": true
+      },
+      {
+        "step": "浏览全部五个关卡",
+        "seconds": 49,
+        "ok": true
+      },
+      {
+        "step": "第一关尝试搭建与运行",
+        "seconds": 57,
+        "ok": true
+      },
+      {
+        "step": "观察结果并复位",
+        "seconds": 67,
+        "ok": true
+      },
+      {
+        "step": "返回演示场景",
+        "seconds": 69,
+        "ok": true
+      }
+    ],
+    "errors": [],
+    "finalText": "PhysicsLab\n编辑\n开始\n暂停\n复位\n单步\n第一关 · 直落斜坡\n第二关 · 越沟投送\n第三关 · 弹跳入洞\n第四关 · 摆锤运输\n第五关 · 精准入洞\n演示场景\n导出\n导入\n撤销\n清空\n编辑\n物体库（拖入画布）\n●\n小球\nball\n■\n矩形\nbox\n▰\n斜坡\nramp\n▬\n静态墙\nwall\n⬤\n弹性垫\nbumper\n⏱\n铰接摆锤\npendulum\n属性面板\n质量密度\n摩擦\n弹性\n旋转(°)\n尺寸\n 静态物体（不受力）\n删除物体\n环境设置\n重力 Y（0~2）\n网格吸附\n关闭\n开启\n操作说明\n· 左侧拖动物体到画布\n· 点选物体后可拖动/编辑属性\n· 滚轮缩放 · 空白处拖动平移\n· 仿真中：按住画布拖动可施加冲量箭头\n· 编辑模式物体静止不动\n· 环境设置：重力实时生效（含仿真中）\n· 网格吸附：开启后拖动物体对齐 20px 网格\n▶ 开始\n⏸ 暂停\n⏭ 单步\n↺ 复位\n演示场景已加载"
+  }
+]
