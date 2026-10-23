@@ -1,0 +1,206 @@
+[
+  {
+    "model": "xingchen",
+    "steps": [
+      {
+        "step": "打开剪辑器与素材库",
+        "seconds": 2,
+        "ok": true,
+        "text": "ClipStudio\n📁 导入素材\n📥 加载示例\n📄 新建\n💾 保存\n📂 载入\n↶ 撤销\n↷ 重做\n🎬 导出WebM\n就绪\n素材库\nsample_video.webm\nvideo · 00:04.00 · 46KB\n🎵\nsample_audio.wav\naudio · 00:04.00 · 172KB\nstill.png\nimage · 1KB\n▶\n⏹\n00:00.00 / 00:00.00\n🔊\n🔇\n属性\n\n选择片段或字幕查看属性\n\n字幕\n＋ 添加字幕\n✂ 分割\n🗑 删除\n|\n−\n50px/s\n＋\n|\n🧲 吸附\n|\n4 轨道\n00:00\n00:01\n00:02\n00:03\n00:04\n00:05\n00:06\n00:07\n00:08\n00:09\n00:10\n00:11\n🎬\nV1\n🎬\nV2\n🎵\nA1\n🎵\nA2\n已加载 3 个示例素材"
+      },
+      {
+        "step": "双击视频素材加入轨道",
+        "seconds": 4,
+        "ok": true,
+        "text": "ClipStudio\n📁 导入素材\n📥 加载示例\n📄 新建\n💾 保存\n📂 载入\n↶ 撤销\n↷ 重做\n🎬 导出WebM\n就绪\n素材库\nsample_video.webm\nvideo · 00:04.00 · 46KB\n✕\n🎵\nsample_audio.wav\naudio · 00:04.00 · 172KB\nstill.png\nimage · 1KB\n▶\n⏹\n00:00.00 / 00:00.00\n🔊\n🔇\n属性\n\n选择片段或字幕查看属性\n\n字幕\n＋ 添加字幕\n✂ 分割\n🗑 删除\n|\n−\n50px/s\n＋\n|\n🧲 吸附\n|\n4 轨道\n00:00\n00:01\n00:02\n00:03\n00:04\n00:05\n00:06\n00:07\n00:08\n00:09\n00:10\n00:11\n🎬\nV1\nsample_video.webm\n🎬\nV2\n🎵\nA1\n🎵\nA2\n已添加 sample_video.webm 到 v1"
+      },
+      {
+        "step": "双击音频素材加入轨道",
+        "seconds": 7,
+        "ok": true,
+        "text": "ClipStudio\n📁 导入素材\n📥 加载示例\n📄 新建\n💾 保存\n📂 载入\n↶ 撤销\n↷ 重做\n🎬 导出WebM\n就绪\n素材库\nsample_video.webm\nvideo · 00:04.00 · 46KB\n🎵\nsample_audio.wav\naudio · 00:04.00 · 172KB\n✕\nstill.png\nimage · 1KB\n▶\n⏹\n00:00.00 / 00:00.00\n🔊\n🔇\n属性\n\n选择片段或字幕查看属性\n\n字幕\n＋ 添加字幕\n✂ 分割\n🗑 删除\n|\n−\n50px/s\n＋\n|\n🧲 吸附\n|\n4 轨道\n00:00\n00:01\n00:02\n00:03\n00:04\n00:05\n00:06\n00:07\n00:08\n00:09\n00:10\n00:11\n🎬\nV1\nsample_video.webm\n🎬\nV2\n🎵\nA1\nsample_audio.wav\n🎵\nA2\n已添加 sample_video.webm 到 v1\n已添加 sample_audio.wav 到 a1"
+      },
+      {
+        "step": "点击播放并暂停预览",
+        "seconds": 11,
+        "ok": true,
+        "text": "ClipStudio\n📁 导入素材\n📥 加载示例\n📄 新建\n💾 保存\n📂 载入\n↶ 撤销\n↷ 重做\n🎬 导出WebM\n就绪\n素材库\nsample_video.webm\nvideo · 00:04.00 · 46KB\n🎵\nsample_audio.wav\naudio · 00:04.00 · 172KB\nstill.png\nimage · 1KB\n▶\n⏹\n00:01.82 / 00:04.00\n🔊\n🔇\n属性\n\n选择片段或字幕查看属性\n\n字幕\n＋ 添加字幕\n✂ 分割\n🗑 删除\n|\n−\n50px/s\n＋\n|\n🧲 吸附\n|\n4 轨道\n00:00\n00:01\n00:02\n00:03\n00:04\n00:05\n00:06\n00:07\n00:08\n00:09\n00:10\n00:11\n🎬\nV1\nsample_video.webm\n🎬\nV2\n🎵\nA1\nsample_audio.wav\n🎵\nA2"
+      },
+      {
+        "step": "选择片段并点击分割",
+        "seconds": 14,
+        "ok": true,
+        "text": "ClipStudio\n📁 导入素材\n📥 加载示例\n📄 新建\n💾 保存\n📂 载入\n↶ 撤销\n↷ 重做\n🎬 导出WebM\n就绪\n素材库\nsample_video.webm\nvideo · 00:04.00 · 46KB\n🎵\nsample_audio.wav\naudio · 00:04.00 · 172KB\nstill.png\nimage · 1KB\n▶\n⏹\n00:01.82 / 00:04.00\n🔊\n🔇\n属性\n素材\nsample_video.webm\n起始\n入点\n出点\n时长\n4.00s\n字幕\n＋ 添加字幕\n✂ 分割\n🗑 删除\n|\n−\n50px/s\n＋\n|\n🧲 吸附\n|\n4 轨道\n00:00\n00:01\n00:02\n00:03\n00:04\n00:05\n00:06\n00:07\n00:08\n00:09\n00:10\n00:11\n🎬\nV1\nsample_video.webm\nsample_video.webm\n🎬\nV2\n🎵\nA1\nsample_audio.wav\n🎵\nA2\n已分割片段"
+      },
+      {
+        "step": "点击撤销与重做",
+        "seconds": 17,
+        "ok": true,
+        "text": "ClipStudio\n📁 导入素材\n📥 加载示例\n📄 新建\n💾 保存\n📂 载入\n↶ 撤销\n↷ 重做\n🎬 导出WebM\n就绪\n素材库\nsample_video.webm\nvideo · 00:04.00 · 46KB\n🎵\nsample_audio.wav\naudio · 00:04.00 · 172KB\nstill.png\nimage · 1KB\n▶\n⏹\n00:01.82 / 00:04.00\n🔊\n🔇\n属性\n素材\nsample_video.webm\n起始\n入点\n出点\n时长\n4.00s\n字幕\n＋ 添加字幕\n✂ 分割\n🗑 删除\n|\n−\n50px/s\n＋\n|\n🧲 吸附\n|\n4 轨道\n00:00\n00:01\n00:02\n00:03\n00:04\n00:05\n00:06\n00:07\n00:08\n00:09\n00:10\n00:11\n🎬\nV1\nsample_video.webm\nsample_video.webm\n🎬\nV2\n🎵\nA1\nsample_audio.wav\n🎵\nA2\n已撤销\n已重做"
+      },
+      {
+        "step": "添加字幕并输入文字",
+        "seconds": 20,
+        "ok": true,
+        "text": "ClipStudio\n📁 导入素材\n📥 加载示例\n📄 新建\n💾 保存\n📂 载入\n↶ 撤销\n↷ 重做\n🎬 导出WebM\n就绪\n素材库\nsample_video.webm\nvideo · 00:04.00 · 46KB\n🎵\nsample_audio.wav\naudio · 00:04.00 · 172KB\nstill.png\nimage · 1KB\n▶\n⏹\n00:01.82 / 00:04.00\n🔊\n🔇\n属性\n文字\n开始\n结束\nX位置\nY位置\n字号\n颜色\n淡入(s)\n淡出(s)\n删除字幕\n字幕\n＋ 添加字幕\n✂ 分割\n🗑 删除\n|\n−\n50px/s\n＋\n|\n🧲 吸附\n|\n4 轨道\n00:00\n00:01\n00:02\n00:03\n00:04\n00:05\n00:06\n00:07\n00:08\n00:09\n00:10\n00:11\n🎬\nV1\nsample_video.webm\nsample_video.webm\n🎬\nV2\n🎵\nA1\nsample_audio.wav\n🎵\nA2\n已添加字幕"
+      },
+      {
+        "step": "缩放时间轴与切换吸附",
+        "seconds": 23,
+        "ok": true,
+        "text": "ClipStudio\n📁 导入素材\n📥 加载示例\n📄 新建\n💾 保存\n📂 载入\n↶ 撤销\n↷ 重做\n🎬 导出WebM\n就绪\n素材库\nsample_video.webm\nvideo · 00:04.00 · 46KB\n🎵\nsample_audio.wav\naudio · 00:04.00 · 172KB\nstill.png\nimage · 1KB\n▶\n⏹\n00:01.82 / 00:04.00\n🔊\n🔇\n属性\n文字\n开始\n结束\nX位置\nY位置\n字号\n颜色\n淡入(s)\n淡出(s)\n删除字幕\n字幕\n＋ 添加字幕\n✂ 分割\n🗑 删除\n|\n−\n75px/s\n＋\n|\n🧲 吸附\n|\n4 轨道\n00:00\n00:01\n00:02\n00:03\n00:04\n00:05\n00:06\n00:07\n00:08\n00:09\n00:10\n00:11\n🎬\nV1\nsample_video.webm\nsample_video.webm\n🎬\nV2\n🎵\nA1\nsample_audio.wav\n🎵\nA2\n已添加字幕"
+      },
+      {
+        "step": "点击保存工程",
+        "seconds": 25,
+        "ok": true,
+        "text": "ClipStudio\n📁 导入素材\n📥 加载示例\n📄 新建\n💾 保存\n📂 载入\n↶ 撤销\n↷ 重做\n🎬 导出WebM\n正在保存项目...\n素材库\nsample_video.webm\nvideo · 00:04.00 · 46KB\n🎵\nsample_audio.wav\naudio · 00:04.00 · 172KB\nstill.png\nimage · 1KB\n▶\n⏹\n00:01.82 / 00:04.00\n🔊\n🔇\n属性\n文字\n开始\n结束\nX位置\nY位置\n字号\n颜色\n淡入(s)\n淡出(s)\n删除字幕\n字幕\n＋ 添加字幕\n✂ 分割\n🗑 删除\n|\n−\n75px/s\n＋\n|\n🧲 吸附\n|\n4 轨道\n00:00\n00:01\n00:02\n00:03\n00:04\n00:05\n00:06\n00:07\n00:08\n00:09\n00:10\n00:11\n🎬\nV1\nsample_video.webm\nsample_video.webm\n🎬\nV2\n🎵\nA1\nsample_audio.wav\n🎵\nA2"
+      },
+      {
+        "step": "点击导出WebM",
+        "seconds": 28,
+        "ok": true,
+        "text": "ClipStudio\n📁 导入素材\n📥 加载示例\n📄 新建\n💾 保存\n📂 载入\n↶ 撤销\n↷ 重做\n🎬 导出WebM\n正在准备导出...\n素材库\nsample_video.webm\nvideo · 00:04.00 · 46KB\n🎵\nsample_audio.wav\naudio · 00:04.00 · 172KB\nstill.png\nimage · 1KB\n▶\n⏹\n00:01.82 / 00:04.00\n🔊\n🔇\n属性\n文字\n开始\n结束\nX位置\nY位置\n字号\n颜色\n淡入(s)\n淡出(s)\n删除字幕\n字幕\n＋ 添加字幕\n✂ 分割\n🗑 删除\n|\n−\n75px/s\n＋\n|\n🧲 吸附\n|\n4 轨道\n00:00\n00:01\n00:02\n00:03\n00:04\n00:05\n00:06\n00:07\n00:08\n00:09\n00:10\n00:11\n🎬\nV1\nsample_video.webm\nsample_video.webm\n🎬\nV2\n🎵\nA1\nsample_audio.wav\n🎵\nA2\n正在导出 WebM...\n\n准备中...\n\n项目已保存: project-1792728725841"
+      },
+      {
+        "download": "project-1792728725841.webm"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "model": "deepseek",
+    "steps": [
+      {
+        "step": "打开剪辑器与素材库",
+        "seconds": 2,
+        "ok": true,
+        "text": "ClipStudio\n浏览器多轨剪辑器\n已同步\n保存\n项目库\n导出 WebM\n素材库\n3\n导入\n3 个素材 · 0 个加载中\nVIDEO\nsample_video.webm\n4.00s · 320×180 · 45.6 KB\nAUDIO\nsample_audio.wav\n4.00s · 172.3 KB\nIMAGE\nstill.png\n3.00s · 320×180 · 629 B\n双击素材添加到播放头\n·\n拖拽到轨道更精确\n预览\n320 × 180\n预览就绪\n合成当前播放头画面\n00:00.00\n/\n00:06.00\n15 fps\n吸附\n属性\n未选择\n工程概览\nPROJECT-DEMO\n分辨率\n320×180\n总时长\n6.00s\n帧率\n15\n片段 / 字幕\n3 / 1\n时间单位与数据\nstart / end 是片段在工程时间轴上的位置；sourceIn / sourceOut 是素材内部的区间。 片段时长恒等于 sourceOut − sourceIn。\n查看工程 JSON\n下载 JSON\n快捷键\nSpace\n播放 / 暂停\nS\n在播放头分割选中片段\nT\n添加字幕\nDelete\n删除选中\n⌘/Ctrl Z\n撤销\n⇧⌘/Ctrl Z\n重做\n← / →\n逐帧移动播放头\nN\n吸附开关\n时间轴\n2 视频轨 · 2 音频轨 · 6.0s\n分割\n删除\n字幕\n84 px/s\n轨道\n0s\n1s\n2s\n3s\n4s\n5s\n6s\n7s\n8s\n9s\n10s\n11s\n12s\n13s\n14s\n15s\nV2\n视频轨 2\n1 个片段\nstill.png\n3.00s · 3.00s\nV1\n视频轨 1\n1 个片段\nsample_video.webm\n0.00s · 3.00s\nA1\n音频轨 1\nM\n1 个片段\nsample_audio.wav\n0.00s · 4.00s\nA2\n音频轨 2\nM\n0 个片段\nT\n字幕\n1 条\n1.0sHello Harness\n正在连接本地素材与项目服务…\n已载入「示例工程」 · 3 个素材"
+      },
+      {
+        "step": "双击视频素材加入轨道",
+        "seconds": 4,
+        "ok": true,
+        "text": "ClipStudio\n浏览器多轨剪辑器\n未保存修改\n保存\n项目库\n导出 WebM\n素材库\n3\n导入\n3 个素材 · 0 个加载中\nVIDEO\nsample_video.webm\n4.00s · 320×180 · 45.6 KB\nAUDIO\nsample_audio.wav\n4.00s · 172.3 KB\nIMAGE\nstill.png\n3.00s · 320×180 · 629 B\n双击素材添加到播放头\n·\n拖拽到轨道更精确\n预览\n320 × 180\n素材加载中\n等待视频 / 音频元数据\n正在加载素材…\n00:00.00\n/\n00:06.00\n15 fps\n吸附\n属性\n片段\n片段\nCLIP-MVKGGQCD-1-RST1G\n视频\nsample_video.webm\n视频轨 V1 · 4.00s\n素材区间\nsourceIn → sourceOut\n时间轴位置\nstart → end\n4.00s = sourceOut 4.00 − sourceIn 0.00； 播放头映射：sourceIn + (t − start)\n在播放头分割\n复制片段\n删除\n时间轴\n2 视频轨 · 2 音频轨 · 6.0s\n分割\n删除\n字幕\n84 px/s\n轨道\n0s\n1s\n2s\n3s\n4s\n5s\n6s\n7s\n8s\n9s\n10s\n11s\n12s\n13s\n14s\n15s\nV2\n视频轨 2\n1 个片段\nstill.png\n3.00s · 3.00s\nV1\n视频轨 1\n2 个片段\nsample_video.webm\n0.00s · 3.00s\nsample_video.webm\n0.00s · 4.00s\nA1\n音频轨 1\nM\n1 个片段\nsample_audio.wav\n0.00s · 4.00s\nA2\n音频轨 2\nM\n0 个片段\nT\n字幕\n1 条\n1.0sHello Harness\n已添加「sample_video.webm」到 v1"
+      },
+      {
+        "step": "双击音频素材加入轨道",
+        "seconds": 7,
+        "ok": true,
+        "text": "ClipStudio\n浏览器多轨剪辑器\n未保存修改\n保存\n项目库\n导出 WebM\n素材库\n3\n导入\n3 个素材 · 0 个加载中\nVIDEO\nsample_video.webm\n4.00s · 320×180 · 45.6 KB\nAUDIO\nsample_audio.wav\n4.00s · 172.3 KB\nIMAGE\nstill.png\n3.00s · 320×180 · 629 B\n双击素材添加到播放头\n·\n拖拽到轨道更精确\n预览\n320 × 180\n预览就绪\n合成当前播放头画面\n00:00.00\n/\n00:06.00\n15 fps\n吸附\n属性\n片段\n片段\nCLIP-MVKGGSB2-2-WCPOW\n音频\nsample_audio.wav\n音频轨 A1 · 4.00s\n素材区间\nsourceIn → sourceOut\n时间轴位置\nstart → end\n4.00s = sourceOut 4.00 − sourceIn 0.00； 播放头映射：sourceIn + (t − start)\n片段音量\n100%\n片段静音\n在播放头分割\n复制片段\n删除\n时间轴\n2 视频轨 · 2 音频轨 · 6.0s\n分割\n删除\n字幕\n84 px/s\n轨道\n0s\n1s\n2s\n3s\n4s\n5s\n6s\n7s\n8s\n9s\n10s\n11s\n12s\n13s\n14s\n15s\nV2\n视频轨 2\n1 个片段\nstill.png\n3.00s · 3.00s\nV1\n视频轨 1\n2 个片段\nsample_video.webm\n0.00s · 3.00s\nsample_video.webm\n0.00s · 4.00s\nA1\n音频轨 1\nM\n2 个片段\nsample_audio.wav\n0.00s · 4.00s\nsample_audio.wav\n0.00s · 4.00s\nA2\n音频轨 2\nM\n0 个片段\nT\n字幕\n1 条\n1.0sHello Harness\n已添加「sample_video.webm」到 v1\n已添加「sample_audio.wav」到 a1"
+      },
+      {
+        "step": "点击播放并暂停预览",
+        "seconds": 11,
+        "ok": true,
+        "text": "ClipStudio\n浏览器多轨剪辑器\n未保存修改\n保存\n项目库\n导出 WebM\n素材库\n3\n导入\n3 个素材 · 0 个加载中\nVIDEO\nsample_video.webm\n4.00s · 320×180 · 45.6 KB\nAUDIO\nsample_audio.wav\n4.00s · 172.3 KB\nIMAGE\nstill.png\n3.00s · 320×180 · 629 B\n双击素材添加到播放头\n·\n拖拽到轨道更精确\n预览\n320 × 180\n预览就绪\n合成当前播放头画面\n00:01.84\n/\n00:06.00\n15 fps\n吸附\n属性\n片段\n片段\nCLIP-MVKGGSB2-2-WCPOW\n音频\nsample_audio.wav\n音频轨 A1 · 4.00s\n素材区间\nsourceIn → sourceOut\n时间轴位置\nstart → end\n4.00s = sourceOut 4.00 − sourceIn 0.00； 播放头映射：sourceIn + (t − start)\n片段音量\n100%\n片段静音\n在播放头分割\n复制片段\n删除\n时间轴\n2 视频轨 · 2 音频轨 · 6.0s\n分割\n删除\n字幕\n84 px/s\n轨道\n0s\n1s\n2s\n3s\n4s\n5s\n6s\n7s\n8s\n9s\n10s\n11s\n12s\n13s\n14s\n15s\nV2\n视频轨 2\n1 个片段\nstill.png\n3.00s · 3.00s\nV1\n视频轨 1\n2 个片段\nsample_video.webm\n0.00s · 3.00s\nsample_video.webm\n0.00s · 4.00s\nA1\n音频轨 1\nM\n2 个片段\nsample_audio.wav\n0.00s · 4.00s\nsample_audio.wav\n0.00s · 4.00s\nA2\n音频轨 2\nM\n0 个片段\nT\n字幕\n1 条\n1.0sHello Harness"
+      },
+      {
+        "step": "选择片段并点击分割",
+        "seconds": 14,
+        "ok": true,
+        "text": "ClipStudio\n浏览器多轨剪辑器\n未保存修改\n保存\n项目库\n导出 WebM\n素材库\n3\n导入\n3 个素材 · 0 个加载中\nVIDEO\nsample_video.webm\n4.00s · 320×180 · 45.6 KB\nAUDIO\nsample_audio.wav\n4.00s · 172.3 KB\nIMAGE\nstill.png\n3.00s · 320×180 · 629 B\n双击素材添加到播放头\n·\n拖拽到轨道更精确\n预览\n320 × 180\n素材加载中\n等待视频 / 音频元数据\n正在加载素材…\n00:01.84\n/\n00:06.00\n15 fps\n吸附\n属性\n片段\n片段\nCLIP-A-MVKGGXRT-9-LB1ER\n音频\nsample_audio.wav\n音频轨 A1 · 4.00s\n素材区间\nsourceIn → sourceOut\n时间轴位置\nstart → end\n1.84s = sourceOut 1.84 − sourceIn 0.00； 播放头映射：sourceIn + (t − start)\n片段音量\n100%\n片段静音\n在播放头分割\n复制片段\n删除\n时间轴\n2 视频轨 · 2 音频轨 · 6.0s\n分割\n删除\n字幕\n84 px/s\n轨道\n0s\n1s\n2s\n3s\n4s\n5s\n6s\n7s\n8s\n9s\n10s\n11s\n12s\n13s\n14s\n15s\nV2\n视频轨 2\n1 个片段\nstill.png\n3.00s · 3.00s\nV1\n视频轨 1\n4 个片段\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 1.16s\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 2.16s\nA1\n音频轨 1\nM\n4 个片段\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nA2\n音频轨 2\nM\n0 个片段\nT\n字幕\n1 条\n1.0sHello Harness\n已在 1.84s 处分割 4 个片段"
+      },
+      {
+        "step": "点击撤销与重做",
+        "seconds": 17,
+        "ok": true,
+        "text": "ClipStudio\n浏览器多轨剪辑器\n未保存修改\n保存\n项目库\n导出 WebM\n素材库\n3\n导入\n3 个素材 · 0 个加载中\nVIDEO\nsample_video.webm\n4.00s · 320×180 · 45.6 KB\nAUDIO\nsample_audio.wav\n4.00s · 172.3 KB\nIMAGE\nstill.png\n3.00s · 320×180 · 629 B\n双击素材添加到播放头\n·\n拖拽到轨道更精确\n预览\n320 × 180\n素材加载中\n等待视频 / 音频元数据\n正在加载素材…\n00:01.84\n/\n00:06.00\n15 fps\n吸附\n属性\n片段\n片段\nCLIP-A-MVKGGXRT-9-LB1ER\n音频\nsample_audio.wav\n音频轨 A1 · 4.00s\n素材区间\nsourceIn → sourceOut\n时间轴位置\nstart → end\n1.84s = sourceOut 1.84 − sourceIn 0.00； 播放头映射：sourceIn + (t − start)\n片段音量\n100%\n片段静音\n在播放头分割\n复制片段\n删除\n时间轴\n2 视频轨 · 2 音频轨 · 6.0s\n分割\n删除\n字幕\n84 px/s\n轨道\n0s\n1s\n2s\n3s\n4s\n5s\n6s\n7s\n8s\n9s\n10s\n11s\n12s\n13s\n14s\n15s\nV2\n视频轨 2\n1 个片段\nstill.png\n3.00s · 3.00s\nV1\n视频轨 1\n4 个片段\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 1.16s\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 2.16s\nA1\n音频轨 1\nM\n4 个片段\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nA2\n音频轨 2\nM\n0 个片段\nT\n字幕\n1 条\n1.0sHello Harness\n已撤销：分割片段\n已重做：分割片段"
+      },
+      {
+        "step": "添加字幕并输入文字",
+        "seconds": 20,
+        "ok": true,
+        "text": "ClipStudio\n浏览器多轨剪辑器\n未保存修改\n保存\n项目库\n导出 WebM\n素材库\n3\n导入\n3 个素材 · 0 个加载中\nVIDEO\nsample_video.webm\n4.00s · 320×180 · 45.6 KB\nAUDIO\nsample_audio.wav\n4.00s · 172.3 KB\nIMAGE\nstill.png\n3.00s · 320×180 · 629 B\n双击素材添加到播放头\n·\n拖拽到轨道更精确\n预览\n320 × 180\n预览就绪\n合成当前播放头画面\n00:01.84\n/\n00:06.00\n15 fps\n吸附\n属性\n字幕\n字幕\nCAPTION-MVKGH2EY-11-UFICQ\n文字内容\n画布上居中锚点\n时间区间\nstart → end\n位置\n相对画布百分比\n字号\npx\n颜色\n淡入\n秒\n淡出\n秒\n跳到字幕入点\n删除字幕\n字幕会在预览和导出的每一帧按时间合成，淡入淡出以透明度渐变实现。\n时间轴\n2 视频轨 · 2 音频轨 · 6.0s\n分割\n删除\n字幕\n84 px/s\n轨道\n0s\n1s\n2s\n3s\n4s\n5s\n6s\n7s\n8s\n9s\n10s\n11s\n12s\n13s\n14s\n15s\nV2\n视频轨 2\n1 个片段\nstill.png\n3.00s · 3.00s\nV1\n视频轨 1\n4 个片段\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 1.16s\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 2.16s\nA1\n音频轨 1\nM\n4 个片段\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nA2\n音频轨 2\nM\n0 个片段\nT\n字幕\n2 条\n1.0sHello Harness\n1.8sFE-06 实际点击演示\n已重做：分割片段\n字幕已添加到播放头位置"
+      },
+      {
+        "step": "缩放时间轴与切换吸附",
+        "seconds": 22,
+        "ok": true,
+        "text": "ClipStudio\n浏览器多轨剪辑器\n未保存修改\n保存\n项目库\n导出 WebM\n素材库\n3\n导入\n3 个素材 · 0 个加载中\nVIDEO\nsample_video.webm\n4.00s · 320×180 · 45.6 KB\nAUDIO\nsample_audio.wav\n4.00s · 172.3 KB\nIMAGE\nstill.png\n3.00s · 320×180 · 629 B\n双击素材添加到播放头\n·\n拖拽到轨道更精确\n预览\n320 × 180\n预览就绪\n合成当前播放头画面\n00:01.84\n/\n00:06.00\n15 fps\n吸附\n属性\n字幕\n字幕\nCAPTION-MVKGH2EY-11-UFICQ\n文字内容\n画布上居中锚点\n时间区间\nstart → end\n位置\n相对画布百分比\n字号\npx\n颜色\n淡入\n秒\n淡出\n秒\n跳到字幕入点\n删除字幕\n字幕会在预览和导出的每一帧按时间合成，淡入淡出以透明度渐变实现。\n时间轴\n2 视频轨 · 2 音频轨 · 6.0s\n分割\n删除\n字幕\n184 px/s\n轨道\n0s\n0.5s\n1s\n1.5s\n2s\n2.5s\n3s\n3.5s\n4s\n4.5s\n5s\n5.5s\n6s\n6.5s\n7s\n7.5s\n8s\nV2\n视频轨 2\n1 个片段\nstill.png\n3.00s · 3.00s\nV1\n视频轨 1\n4 个片段\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 1.16s\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 2.16s\nA1\n音频轨 1\nM\n4 个片段\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nA2\n音频轨 2\nM\n0 个片段\nT\n字幕\n2 条\n1.0sHello Harness\n1.8sFE-06 实际点击演示\n字幕已添加到播放头位置\n吸附已关闭"
+      },
+      {
+        "step": "点击保存工程",
+        "seconds": 25,
+        "ok": true,
+        "text": "ClipStudio\n浏览器多轨剪辑器\n保存中…\n保存\n项目库\n导出 WebM\n素材库\n3\n导入\n3 个素材 · 0 个加载中\nVIDEO\nsample_video.webm\n4.00s · 320×180 · 45.6 KB\nAUDIO\nsample_audio.wav\n4.00s · 172.3 KB\nIMAGE\nstill.png\n3.00s · 320×180 · 629 B\n双击素材添加到播放头\n·\n拖拽到轨道更精确\n预览\n320 × 180\n预览就绪\n合成当前播放头画面\n00:01.84\n/\n00:06.00\n15 fps\n吸附\n属性\n字幕\n字幕\nCAPTION-MVKGH2EY-11-UFICQ\n文字内容\n画布上居中锚点\n时间区间\nstart → end\n位置\n相对画布百分比\n字号\npx\n颜色\n淡入\n秒\n淡出\n秒\n跳到字幕入点\n删除字幕\n字幕会在预览和导出的每一帧按时间合成，淡入淡出以透明度渐变实现。\n时间轴\n2 视频轨 · 2 音频轨 · 6.0s\n分割\n删除\n字幕\n184 px/s\n轨道\n0s\n0.5s\n1s\n1.5s\n2s\n2.5s\n3s\n3.5s\n4s\n4.5s\n5s\n5.5s\n6s\n6.5s\n7s\n7.5s\n8s\nV2\n视频轨 2\n1 个片段\nstill.png\n3.00s · 3.00s\nV1\n视频轨 1\n4 个片段\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 1.16s\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 2.16s\nA1\n音频轨 1\nM\n4 个片段\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nA2\n音频轨 2\nM\n0 个片段\nT\n字幕\n2 条\n1.0sHello Harness\n1.8sFE-06 实际点击演示\n吸附已关闭"
+      },
+      {
+        "step": "点击导出WebM",
+        "seconds": 27,
+        "ok": true,
+        "text": "ClipStudio\n浏览器多轨剪辑器\n已同步\n保存\n项目库\n导出 WebM\n素材库\n3\n导入\n3 个素材 · 0 个加载中\nVIDEO\nsample_video.webm\n4.00s · 320×180 · 45.6 KB\nAUDIO\nsample_audio.wav\n4.00s · 172.3 KB\nIMAGE\nstill.png\n3.00s · 320×180 · 629 B\n双击素材添加到播放头\n·\n拖拽到轨道更精确\n预览\n320 × 180\n预览就绪\n合成当前播放头画面\n00:00.00\n/\n00:06.00\n15 fps\n吸附\n属性\n字幕\n字幕\nCAPTION-MVKGH2EY-11-UFICQ\n文字内容\n画布上居中锚点\n时间区间\nstart → end\n位置\n相对画布百分比\n字号\npx\n颜色\n淡入\n秒\n淡出\n秒\n跳到字幕入点\n删除字幕\n字幕会在预览和导出的每一帧按时间合成，淡入淡出以透明度渐变实现。\n时间轴\n2 视频轨 · 2 音频轨 · 6.0s\n分割\n删除\n字幕\n184 px/s\n轨道\n0s\n0.5s\n1s\n1.5s\n2s\n2.5s\n3s\n3.5s\n4s\n4.5s\n5s\n5.5s\n6s\n6.5s\n7s\n7.5s\n8s\nV2\n视频轨 2\n1 个片段\nstill.png\n3.00s · 3.00s\nV1\n视频轨 1\n4 个片段\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 1.16s\nsample_video.webm\n0.00s · 1.84s\nsample_video.webm\n1.84s · 2.16s\nA1\n音频轨 1\nM\n4 个片段\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nsample_audio.wav\n0.00s · 1.84s\nsample_audio.wav\n1.84s · 2.16s\nA2\n音频轨 2\nM\n0 个片段\nT\n字幕\n2 条\n1.0sHello Harness\n1.8sFE-06 实际点击演示\n正在导出 WebM\n✕\n准备素材与编码器…\n0%\n导出使用 Canvas 实时合成 + MediaRecorder 录制，时长与工程一致（6.00s）。请保持页面在前台，不要切换标签页。\n取消导出\n工程已保存到本地 Mock API（2.1 KB）"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "model": "glm",
+    "steps": [
+      {
+        "step": "打开剪辑器与素材库",
+        "seconds": 0,
+        "ok": true,
+        "text": "🎬 ClipStudio\n导入本地素材\n加载样例素材\n未命名工程\n新建\n打开工程…\n保存工程\n工程 JSON\n导出 WebM\n素材库\n🎵\nsample_audio.wav\n4.00s · 音频\n音频\nsample_video.webm\n4.00s · 320×180\n视频\nstill.png\n静态图片 · 320×180\n图片\n素材状态：加载 sample_video.webm\n▶ 播放\n⏮ 开头\n0.00 / 6.00 s\n✂ 分割\n🗑 删除片段\n+ 字幕\n主音量\n全部静音\n工程信息\n画布\n320×180 @ 15fps\n时长\n6.00 s\n轨道\nv1 / v2 / a1 / a2\n选中片段或字幕查看属性；时间轴双击片段同样有效。\n字幕 (1)\nHello Harness\n1.00–3.00s\n编辑\n删\n−\n40 px/s\n＋\n吸附: 开\n拖拽素材到轨道 · 拖动边缘裁剪 · Ctrl/⌘+滚轮缩放 · 双击片段查看属性\n素材库\n工程\n工程 project-demo 已载入\n工程载入完成 ✓"
+      },
+      {
+        "step": "拖入视频到视频轨",
+        "seconds": 3,
+        "ok": true,
+        "text": "🎬 ClipStudio\n导入本地素材\n加载样例素材\n未命名工程\n新建\n打开工程…\n保存工程\n工程 JSON\n导出 WebM\n素材库\n🎵\nsample_audio.wav\n4.00s · 音频\n音频\nsample_video.webm\n4.00s · 320×180\n视频\nstill.png\n静态图片 · 320×180\n图片\n素材状态：3 个素材就绪\n▶ 播放\n⏮ 开头\n0.00 / 6.00 s\n✂ 分割\n🗑 删除片段\n+ 字幕\n主音量\n全部静音\n片段属性\n素材\nsample_video.webm\n类型\n视频\n轨道\nv1\n工程位置\nstart = 0.00s，end = 4.00s\n素材区间\nsourceIn = 0.00s → sourceOut = 4.00s\n有效时长\n4.00s\n左右拖动片段边缘可裁剪；裁剪改变 sourceIn/sourceOut 与 start。\n音频与效果\n音量\n1.00\n静音\n（该片段在视频轨，无音频）\n淡入(秒)\n淡出(秒)\n淡入淡出对视频轨是画面透明度、对音频轨是增益曲线。\n✂ 在播放头分割 🗑 删除片段\n−\n40 px/s\n＋\n吸附: 开\n拖拽素材到轨道 · 拖动边缘裁剪 · Ctrl/⌘+滚轮缩放 · 双击片段查看属性\n素材库\n工程\n已将 sample_video.webm 放入 v1"
+      },
+      {
+        "step": "拖入音频到音轨",
+        "seconds": 5,
+        "ok": true,
+        "text": "🎬 ClipStudio\n导入本地素材\n加载样例素材\n未命名工程\n新建\n打开工程…\n保存工程\n工程 JSON\n导出 WebM\n素材库\n🎵\nsample_audio.wav\n4.00s · 音频\n音频\nsample_video.webm\n4.00s · 320×180\n视频\nstill.png\n静态图片 · 320×180\n图片\n素材状态：3 个素材就绪\n▶ 播放\n⏮ 开头\n0.00 / 6.00 s\n✂ 分割\n🗑 删除片段\n+ 字幕\n主音量\n全部静音\n片段属性\n素材\nsample_audio.wav\n类型\n音频\n轨道\na1\n工程位置\nstart = 0.00s，end = 4.00s\n素材区间\nsourceIn = 0.00s → sourceOut = 4.00s\n有效时长\n4.00s\n左右拖动片段边缘可裁剪；裁剪改变 sourceIn/sourceOut 与 start。\n音频与效果\n音量\n1.00\n静音\n淡入(秒)\n淡出(秒)\n淡入淡出对视频轨是画面透明度、对音频轨是增益曲线。\n✂ 在播放头分割 🗑 删除片段\n−\n40 px/s\n＋\n吸附: 开\n拖拽素材到轨道 · 拖动边缘裁剪 · Ctrl/⌘+滚轮缩放 · 双击片段查看属性\n素材库\n工程\n已将 sample_audio.wav 放入 a1"
+      },
+      {
+        "step": "点击播放并暂停预览",
+        "seconds": 10,
+        "ok": true,
+        "text": "🎬 ClipStudio\n导入本地素材\n加载样例素材\n未命名工程\n新建\n打开工程…\n保存工程\n工程 JSON\n导出 WebM\n素材库\n🎵\nsample_audio.wav\n4.00s · 音频\n音频\nsample_video.webm\n4.00s · 320×180\n视频\nstill.png\n静态图片 · 320×180\n图片\n素材状态：3 个素材就绪\n▶ 播放\n⏮ 开头\n1.81 / 6.00 s\n✂ 分割\n🗑 删除片段\n+ 字幕\n主音量\n全部静音\n片段属性\n素材\nsample_audio.wav\n类型\n音频\n轨道\na1\n工程位置\nstart = 0.00s，end = 4.00s\n素材区间\nsourceIn = 0.00s → sourceOut = 4.00s\n有效时长\n4.00s\n左右拖动片段边缘可裁剪；裁剪改变 sourceIn/sourceOut 与 start。\n音频与效果\n音量\n1.00\n静音\n淡入(秒)\n淡出(秒)\n淡入淡出对视频轨是画面透明度、对音频轨是增益曲线。\n✂ 在播放头分割 🗑 删除片段\n−\n40 px/s\n＋\n吸附: 开\n拖拽素材到轨道 · 拖动边缘裁剪 · Ctrl/⌘+滚轮缩放 · 双击片段查看属性\n素材库\n工程\n已将 sample_audio.wav 放入 a1"
+      },
+      {
+        "step": "选择片段并点击分割",
+        "seconds": 12,
+        "ok": true,
+        "text": "🎬 ClipStudio\n导入本地素材\n加载样例素材\n未命名工程\n新建\n打开工程…\n保存工程\n工程 JSON\n导出 WebM\n素材库\n🎵\nsample_audio.wav\n4.00s · 音频\n音频\nsample_video.webm\n4.00s · 320×180\n视频\nstill.png\n静态图片 · 320×180\n图片\n素材状态：3 个素材就绪\n▶ 播放\n⏮ 开头\n3.10 / 6.00 s\n✂ 分割\n🗑 删除片段\n+ 字幕\n主音量\n全部静音\n片段属性\n素材\nsample_video.webm\n类型\n视频\n轨道\nv1\n工程位置\nstart = 0.00s，end = 3.00s\n素材区间\nsourceIn = 0.50s → sourceOut = 3.50s\n有效时长\n3.00s\n左右拖动片段边缘可裁剪；裁剪改变 sourceIn/sourceOut 与 start。\n音频与效果\n音量\n1.00\n静音\n（该片段在视频轨，无音频）\n淡入(秒)\n淡出(秒)\n淡入淡出对视频轨是画面透明度、对音频轨是增益曲线。\n✂ 在播放头分割 🗑 删除片段\n−\n40 px/s\n＋\n吸附: 开\n拖拽素材到轨道 · 拖动边缘裁剪 · Ctrl/⌘+滚轮缩放 · 双击片段查看属性\n素材库\n工程\n已将 sample_audio.wav 放入 a1\n播放头不在选中片段内部（或距离边缘太近），无法分割"
+      },
+      {
+        "step": "撤销和重做",
+        "seconds": 16,
+        "ok": true,
+        "text": "🎬 ClipStudio\n导入本地素材\n加载样例素材\n未命名工程\n新建\n打开工程…\n保存工程\n工程 JSON\n导出 WebM\n素材库\n🎵\nsample_audio.wav\n4.00s · 音频\n音频\nsample_video.webm\n4.00s · 320×180\n视频\nstill.png\n静态图片 · 320×180\n图片\n素材状态：3 个素材就绪\n▶ 播放\n⏮ 开头\n3.10 / 6.00 s\n✂ 分割\n🗑 删除片段\n+ 字幕\n主音量\n全部静音\n工程信息\n画布\n320×180 @ 15fps\n时长\n6.00 s\n轨道\nv1 / v2 / a1 / a2\n选中片段或字幕查看属性；时间轴双击片段同样有效。\n字幕 (1)\nHello Harness\n1.00–3.00s\n编辑\n删\n−\n40 px/s\n＋\n吸附: 开\n拖拽素材到轨道 · 拖动边缘裁剪 · Ctrl/⌘+滚轮缩放 · 双击片段查看属性\n素材库\n工程\n已重做"
+      },
+      {
+        "step": "添加字幕并输入文字",
+        "seconds": 18,
+        "ok": true,
+        "text": "🎬 ClipStudio\n导入本地素材\n加载样例素材\n未命名工程\n新建\n打开工程…\n保存工程\n工程 JSON\n导出 WebM\n素材库\n🎵\nsample_audio.wav\n4.00s · 音频\n音频\nsample_video.webm\n4.00s · 320×180\n视频\nstill.png\n静态图片 · 320×180\n图片\n素材状态：3 个素材就绪\n▶ 播放\n⏮ 开头\n3.10 / 6.00 s\n✂ 分割\n🗑 删除片段\n+ 字幕\n主音量\n全部静音\n字幕属性\n文本\n开始(秒)\n结束(秒)\n字号\n颜色\nX (0-1)\nY (0-1)\n🗑 删除字幕\n−\n40 px/s\n＋\n吸附: 开\n拖拽素材到轨道 · 拖动边缘裁剪 · Ctrl/⌘+滚轮缩放 · 双击片段查看属性\n素材库\n工程\n字幕已保存"
+      },
+      {
+        "step": "缩放时间轴并切换吸附",
+        "seconds": 21,
+        "ok": true,
+        "text": "🎬 ClipStudio\n导入本地素材\n加载样例素材\n未命名工程\n新建\n打开工程…\n保存工程\n工程 JSON\n导出 WebM\n素材库\n🎵\nsample_audio.wav\n4.00s · 音频\n音频\nsample_video.webm\n4.00s · 320×180\n视频\nstill.png\n静态图片 · 320×180\n图片\n素材状态：3 个素材就绪\n▶ 播放\n⏮ 开头\n3.10 / 6.00 s\n✂ 分割\n🗑 删除片段\n+ 字幕\n主音量\n全部静音\n字幕属性\n文本\n开始(秒)\n结束(秒)\n字号\n颜色\nX (0-1)\nY (0-1)\n🗑 删除字幕\n−\n60 px/s\n＋\n吸附: 关\n拖拽素材到轨道 · 拖动边缘裁剪 · Ctrl/⌘+滚轮缩放 · 双击片段查看属性\n素材库\n工程\n字幕已保存"
+      },
+      {
+        "step": "点击保存工程",
+        "seconds": 23,
+        "ok": true,
+        "text": "🎬 ClipStudio\n导入本地素材\n加载样例素材\n未命名工程\n新建\n打开工程…\n保存工程\n工程 JSON\n导出 WebM\n素材库\n🎵\nsample_audio.wav\n4.00s · 音频\n音频\nsample_video.webm\n4.00s · 320×180\n视频\nstill.png\n静态图片 · 320×180\n图片\n素材状态：3 个素材就绪\n▶ 播放\n⏮ 开头\n3.10 / 6.00 s\n✂ 分割\n🗑 删除片段\n+ 字幕\n主音量\n全部静音\n字幕属性\n文本\n开始(秒)\n结束(秒)\n字号\n颜色\nX (0-1)\nY (0-1)\n🗑 删除字幕\n−\n60 px/s\n＋\n吸附: 关\n拖拽素材到轨道 · 拖动边缘裁剪 · Ctrl/⌘+滚轮缩放 · 双击片段查看属性\n素材库\n工程\n正在保存工程…"
+      },
+      {
+        "step": "点击导出WebM",
+        "seconds": 26,
+        "ok": true,
+        "text": "🎬 ClipStudio\n导入本地素材\n加载样例素材\n未命名工程\n新建\n打开工程…\n保存工程\n工程 JSON\n导出 WebM\n素材库\n🎵\nsample_audio.wav\n4.00s · 音频\n音频\nsample_video.webm\n4.00s · 320×180\n视频\nstill.png\n静态图片 · 320×180\n图片\n素材状态：3 个素材就绪\n▶ 播放\n⏮ 开头\n3.10 / 6.00 s\n✂ 分割\n🗑 删除片段\n+ 字幕\n主音量\n全部静音\n字幕属性\n文本\n开始(秒)\n结束(秒)\n字号\n颜色\nX (0-1)\nY (0-1)\n🗑 删除字幕\n−\n60 px/s\n＋\n吸附: 关\n拖拽素材到轨道 · 拖动边缘裁剪 · Ctrl/⌘+滚轮缩放 · 双击片段查看属性\n素材库\n工程\n工程已保存到 Mock API（id=project-demo）\n正在导出 WebM\n实时合成中…\n导出按工程时长实时进行，请勿关闭页面\n取消导出\n工程已保存 ✓"
+      },
+      {
+        "download": "clipstudio-export.webm"
+      }
+    ],
+    "errors": []
+  }
+]
